@@ -1,10 +1,13 @@
 let arr = ['Vasya', 'Petr', 'Vlad', 'Djon', 'Fed', 'Dima','Roma', 'Gena'];
 
 let arrName = ['Galya', 'Tanya', 'Marina', 'Anna', 'Sonia'];
-let arr1 = [20,30,[3,25,25],25,5,[5,23,60],40,110,550,78,7];
+let arr1 = [20,30,25,5,40,110,550,78,7];
 
 //let strUser = prompt('text');
-let arr21 = arr1.flat();
+let arr21 = arr1.flatMap(function (element,key) {
+    return key;
+});
+
 //let arrUser = strUser.split(',');
 
 //arr1.fill(38,0,5);
