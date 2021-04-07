@@ -1,7 +1,8 @@
-let arr = ['Vasya', 'Petr', 'Vlad', 'Djon', 'Fed', 'Dima','Roma', 'Gena'];
 
-let arrName = ['Galya', 'Tanya', 'Marina', 'Anna', 'Sonia'];
-let arr1 = [20,30,25,5,40,110,550,78,7];
+/*let arr = ['Vasya', 'Petr', 'Vlad', 'Djon', 'Fed', 'Dima','Roma', 'Gena'];
+
+//let arrName = ['Galya', 'Tanya', 'Marina', 'Anna', 'Sonia'];
+//let arr1 = [20,30,25,5,40,110,550,78,7];
 
 //let strUser = prompt('text');
 let arr21 = arr1.flatMap(function (element,key) {
@@ -23,7 +24,7 @@ let res1 = Array.from('name', function (elem) {
     return elem + '-value  ';
 });
 
-console.log(arr21);
+//console.log(arr21);
 // arr.push(20,30);
 // arr.pop();
 //let arrRes = arr.includes('Djon',4);
@@ -37,7 +38,7 @@ console.log(arr21);
 
 // arr.pop();
 
-//console.log(res);
+//console.log(res);*/
 
 
 // for (let i = 0; i < arrName.length; i++) {
